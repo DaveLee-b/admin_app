@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IndoorNav Admin</string>
+    <string name="title">IndoorNav \nAdmin Mode</string>
+    <string name="floorNum">층</string>
+    <string name="roomNum">호 수</string>
+    <string name="startSensing">START</string>
+    <string name="stopSensing">STOP</string>
+</resources>

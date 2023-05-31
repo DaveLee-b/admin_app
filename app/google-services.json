@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55237991558",
+    "firebase_url": "https://indoor-server-default-rtdb.firebaseio.com",
+    "project_id": "indoor-server",
+    "storage_bucket": "indoor-server.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55237991558:android:550f1c1e1840b7b48e0507",
+        "android_client_info": {
+          "package_name": "com.android.wifiindoorpositioning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55237991558-4khh2cpsqjngm9hf63hobcq24qtflqi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxssfSIsAF3YSgxW720tFxQJJmeVxCStw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55237991558-4khh2cpsqjngm9hf63hobcq24qtflqi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

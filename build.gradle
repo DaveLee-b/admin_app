@@ -1,0 +1,27 @@
+buildscript {
+    repositories {//새로 추가된 코드(파이어베이스)
+        // Make sure that you have the following two repositories
+        google()  // Google's Maven repository
+
+        mavenCentral()  // Maven Central repository
+
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.15'//파베 버전
+        //classpath 'com.google.gms:google-services:4.3.10' 이전 파베코드
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+plugins {//apply false를 지움 apply를 지우면 오류 ;; false에서 true로 변경 ;;이것도 오류 원상복구
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    //id 'com.google.gms.google-services:4.3.15' apply false // 주석처리 해제+버전 맞춰줌+ ':'를 '.'로바꿔줌 ;; 예전 코드였음 아래부분이 최신버전 아래코드 버전만 업그레이드 해줌
+    id 'com.google.gms.google-services' version '4.3.15' apply false
+
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
